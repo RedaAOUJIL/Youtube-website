@@ -20,13 +20,14 @@
                   background-color: lightgray;
                   flex-direction: row;
                   align-items: center;}
-.search-bar{      height: 40px;
+.search-bar{      height: 41px;
                   flex: 1;
+                  border: 1px rgb(185, 185, 185) solid;
                  }
 .search-icon{         height: 27px;}
 .search-icon-container{width: 65px;
                       height: 45px;
-                      border: gray;
+                      border: rgb(186, 185, 185) 1px solid ;
                       cursor: pointer;
                       margin-left: -1px;}
 .ojil-pic{      width: 50px;
