@@ -5,15 +5,19 @@
 .left-container{display: flex;
                 flex-direction: row;
                 align-items: center;
-                background-color: lightblue;
+               
                 width: 190px;
+                flex-shrink: 0;
                 padding-left: 25px;
                 justify-content: space-between;
                 margin-right: 60px;}
-.hamburger-menu{height: 30px;}
-.youtube-logo{  height: 25px;}
+.hamburger-menu{height: 30px;
+                cursor: pointer;}
+.youtube-logo{  height: 25px;
+                cursor: pointer;}
 .hamburger-menu-button{background-color: white;
-                      border: none;}
+                      border: none;
+                      cursor: pointer;}
 
 .center-container{display: flex;
                   width: 600px;
@@ -22,11 +26,17 @@
                   align-items: center;}
 .search-bar{      height: 41px;
                   flex: 1;
+                  max-width: 350px;
+                  cursor: pointer;
                   border-top-left-radius: 4px;
                   border-bottom-left-radius: 4px;
                   border: 1px rgb(185, 185, 185) solid;
                 }
-.search-icon{         height: 27px;}
+.search-bar-container{  display: flex;
+                        
+                        flex-direction: row;}
+.search-icon{         height: 27px;
+                        cursor: pointer;}
 .search-icon-container{width: 65px;
                       height: 45px;
                       border-top-right-radius: 4px;
@@ -34,7 +44,8 @@
                       border: rgb(186, 185, 185) 1px solid ;
                       cursor: pointer;
                       margin-left: -1px;}
-.vioce-search{        height: 27px;}
+.vioce-search{        height: 27px;
+                        cursor: pointer;}
 .vioce-search-container{margin-left: 10px;
                         background-color: rgb(247, 246, 246);
                         border: none;
@@ -46,13 +57,20 @@
                         align-items: center;
                         flex-direction: row;
                         margin-right: 30px;
+                        flex-shrink: 0;
                         justify-content: space-between;
                         width: 250px;
                         margin-left: 60px;}
 .ojil-pic{              width: 50px;
                         height: 50px;
+                        transition: 0.5s;
+                        cursor: pointer;
                         border-radius: 25px;}
+.ojil-pic:hover{       transition: 0.5s;
+                        transform: scale(1.1);}
 .right-icon{            height: 27px;
+                        cursor: pointer;
                         width: 27px;}
 .right-button{          background-color: white;
+                        cursor: pointer;
                         border: none;}
