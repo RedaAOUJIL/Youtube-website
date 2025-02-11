@@ -1,1 +1,9 @@
-.icons-sidebar{}
+.Sidebar{display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 60px;
+        bottom: 0;
+        background-color: 0;}
+.icons-sidebar{height: 27px;}
+
+.icons-para{font-size: 11px;}
