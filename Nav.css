@@ -1,5 +1,12 @@
 .Navbar{display: flex;
         flex-direction: row;
+        position: fixed;
+        right: 0;
+        background-color: white;
+        left: 0;
+        border-bottom: 1px rgb(208, 206, 206) solid;
+        top: 0;
+        height: 65px;
         justify-content: space-between;}
 
 .left-container{display: flex;
