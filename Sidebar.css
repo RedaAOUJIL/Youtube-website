@@ -3,6 +3,8 @@
         position: fixed;
         top: 60px;
         bottom: 0;
+        left: 0;
+        width: 65px;
         background-color: 0;}
 .icons-sidebar{height: 27px;}
 
