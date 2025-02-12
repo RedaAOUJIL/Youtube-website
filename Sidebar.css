@@ -13,9 +13,10 @@
         width: 84px;
         background-color: 0;}
 .icons-sidebar{height: 27px;}
-.icons-sidebar-div{}
+.icons-sidebar-div{background-color: gray;}
 .icons-para{font-size: 11px;}
 .icons-sidebar-buttton{background-color: white;
                         border: none;
+                        transition: 0.5s;
                         cursor: pointer;
                         line-height: 6px;}
