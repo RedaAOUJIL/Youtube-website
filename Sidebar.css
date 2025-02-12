@@ -5,16 +5,15 @@
         justify-content: space-between;
         bottom: 0;
         left: 0;
-        height: 500px;
+        height: 475px;
         align-items: center;
-        padding-left: 20px;
         padding-top: 20px;
-        width: 65px;
+        width: 84px;
         background-color: 0;}
 .icons-sidebar{height: 27px;}
-.icons-sidebar-div{cursor: pointer;
-                        }
+.icons-sidebar-div{}
 .icons-para{font-size: 11px;}
-.icons-sidebar-buttton{background-color: white;
+.icons-sidebar-buttton{background-color:gainsborowhite;
                         border: none;
+                        cursor: pointer;
                         line-height: 6px;}
