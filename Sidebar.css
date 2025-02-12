@@ -2,10 +2,19 @@
         flex-direction: column;
         position: fixed;
         top: 60px;
+        justify-content: space-between;
         bottom: 0;
         left: 0;
+        height: 500px;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 20px;
         width: 65px;
         background-color: 0;}
 .icons-sidebar{height: 27px;}
-
+.icons-sidebar-div{cursor: pointer;
+                        }
 .icons-para{font-size: 11px;}
+.icons-sidebar-buttton{background-color: white;
+                        border: none;
+                        line-height: 6px;}
