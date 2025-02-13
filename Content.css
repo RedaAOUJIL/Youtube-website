@@ -1,0 +1,4 @@
+.content-container{display: grid;
+                  grid-template-columns: 1fr 1fr 1fr;
+                  row-gap: 35px;
+                  column-gap: 20px;}
