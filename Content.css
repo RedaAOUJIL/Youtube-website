@@ -11,3 +11,7 @@
 
 .channel-menitor-container{display: flex;
                           flex-direction: row;}
+
+.channel-menitor{width: 40px;
+                border-radius: 20px;
+                margin-top: 10px;}
