@@ -83,3 +83,15 @@
 .right-button{          background-color: white;
                         cursor: pointer;
                         border: none;}
+.notifications-div{     position: relative;}
+.number{                position: absolute;
+                        background-color: rgb(205, 1, 1);
+                        color: white;
+                        font-size: 12px;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding-top: 2px;
+                        right: 0;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        padding-bottom: 2px;
+                        border-radius: 10px;}
