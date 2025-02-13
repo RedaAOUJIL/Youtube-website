@@ -9,7 +9,7 @@
         background-color:white;
         z-index: 101;
         align-items: center;
-        padding-top: 20px;
+        padding-top: 16px;
         width: 84px;
         background-color: 0;}
 .icons-sidebar{height: 27px;}
@@ -20,7 +20,7 @@
                 align-items: center;
                 cursor: pointer;
                 padding-top: 10px;
-                line-height: 8px;
+                line-height: 7px;
                 height: 70px;}
 .icons-para{font-size: 11px;
             font-family: Arial, Helvetica, sans-serif;}
