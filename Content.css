@@ -1,4 +1,13 @@
 .content-container{display: grid;
-                  grid-template-columns: 1fr 1fr 1fr;
-                  row-gap: 35px;
-                  column-gap: 20px;}
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 35px;
+  flex-shrink: 0;
+  column-gap: 20px;}
+
+.video-container{}
+
+.video-menitor{width: 100%;
+                min-width: 300px}
+
+.channel-menitor-container{display: flex;
+                          flex-direction: row;}
