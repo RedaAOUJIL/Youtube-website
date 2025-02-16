@@ -1,11 +1,20 @@
 .content-container{display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   row-gap: 35px;
   flex-shrink: 0;
   column-gap: 20px;}
 
+@media (max-width: 945px) {
+  .content-container{grid-template-columns: 1fr 1fr;}
+}
+@media (min-width : 946px) and (max-width: 1249px) {
+  .content-container{grid-template-columns: 1fr 1fr 1fr;}
+}
+@media (min-width: 1250px) {
+  .content-container{grid-template-columns: 1fr 1fr 1fr 1fr;} 
+}
 
-
+  
 .video-menitor{           width: 100%;
                           cursor: pointer;
                           min-width: 250px}
